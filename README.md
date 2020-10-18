@@ -1,14 +1,13 @@
 # Software Engineering im Studiengang Media Engineering
 
-## Assignment TDD #1    
+## Assignment "JUnit Einführung"  
 
 ### Grundlagen
 
 #### JUnit
 
 Voraussetzung für Test Driven Development (TDD) sind maschinell ausführbare Tests. 
-Für *Java* ist hierfür die Bibliothek *JUnit* verbreitet, die wir in diesem und ggf.
-weiteren Assignments nutzen werden.
+Für *Java* ist hierfür die Bibliothek *JUnit* verbreitet, die wir in diesem und ggf. weiteren Assignments nutzen werden.
 
 Die Version *JUnit4* besteht aus zwei *JAR*-Dateien, in 
 denen bereits kompilierte Java-Klasse enthalten sind. 
