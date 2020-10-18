@@ -146,5 +146,50 @@ language = "java"
 run = "javac Main.java && java -cp .:./jars/junit-4.12.jar:./jars/hamcrest-core-1.3.jar org.junit.runner.JUnitCore MainTest"
 </code>
 
+#### Erstellen einer weiteren Testmethode
+
+Es ist nicht sehr erstaunlich, dass der Test-Runner
+keine Fehler findet, da in der Testmethode nichts 
+getestet wird. Dies soll sich nun mit einer
+zweiten Testmethode ändern.
+
+Erstellen Sie eine weitere Testmethode
+mit dem Namen <code>testSomeStuff</code>
+(die genaue Signatur sollten Sie aus den
+bisherigen Ausführungen ableiten können.)
+
+Die eigentlichen Prüfungen werden in der 
+Testmethode in Form von Zusicherungen (*Assertions*)
+formuliert. Der Test ist fehlerfrei, wenn
+alle Zusicherungen der Testmethode eingehalten werden.
+
+*JUnit4* bringt eine Reihe von Funktionen mit, mit denen
+Zusicherungen formuliert werden können, z.B.:
+
+- <code>assertEquals</code>
+- <code>assertTrue</code>
+- <code>assertFalse</code>
+- <code>assertNull</code>
+- <code>assertNotNull</code>
+
+Eine Dokumentation der Zusicherungsmethoden der
+hier verwendeten *JUnit4*-Version finden Sie
+[hier](https://junit.org/junit4/javadoc/4.12/org/junit/Assert.html)
+
+Ergänzen Sie jetzt in Ihrer Testmethode Zusicherungen
+für folgende Aussagen:
+
+- Das Ergebnis der Addition von 2 und 3 ist 5.
+- Das Neuanlegen eines Strings liefert ein Objekt ungleich Null
+- 3 * 7 ist größer als 4 * 5
+
+Fügen Sie bei den Zusicherungen eine aussagekräftige 
+Meldung hinzu, die vom Test-Runner ausgegeben wird, falls 
+die Zusicherung nicht erfüllt wird.
+
+
+
+
+
 
 
